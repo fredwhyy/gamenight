@@ -1,0 +1,1206 @@
+{
+  "generated": "2026-07-20",
+  "friends": [
+    {
+      "id": "fr",
+      "name": "Frederik"
+    },
+    {
+      "id": "lu",
+      "name": "Lucas"
+    },
+    {
+      "id": "jo",
+      "name": "Jonas"
+    },
+    {
+      "id": "bj",
+      "name": "Bjarne"
+    },
+    {
+      "id": "be",
+      "name": "Bene"
+    },
+    {
+      "id": "fa",
+      "name": "Faris"
+    }
+  ],
+  "games": [
+    {
+      "name": "Rocket League",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "fred",
+        "lucas",
+        "jonas",
+        "mira",
+        "tom",
+        "anna"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Golf With Your Friends",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Northgard: Definitive Edition",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Phasmophobia",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Pummel Party",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Lethal Company",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "R.E.P.O.",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Counter-Strike 2",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Paladins",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Stick Fight: The Game",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Splitgate",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Among Us",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "RISK: Global Domination",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Just Act Natural",
+      "owners": [
+        "fr",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "HELLDIVERS™ 2",
+      "owners": [
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Raft",
+      "owners": [
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Euro Truck Simulator 2",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Ultimate Chicken Horse",
+      "owners": [
+        "fr",
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Wallpaper Engine",
+      "owners": [
+        "fr",
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Witch It",
+      "owners": [
+        "fr",
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Unrailed!",
+      "owners": [
+        "fr",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Apex Legends",
+      "owners": [
+        "fr",
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Escape Room - The Sick Colleague",
+      "owners": [
+        "fr",
+        "lu",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Chained Together",
+      "owners": [
+        "fr",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Brawlhalla",
+      "owners": [
+        "lu",
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Valheim",
+      "owners": [
+        "lu",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "ROUNDS",
+      "owners": [
+        "lu",
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Escape the Backrooms",
+      "owners": [
+        "lu",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Age of Empires III: Definitive Edition",
+      "owners": [
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Portal 2",
+      "owners": [
+        "fr",
+        "lu",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Lethal League",
+      "owners": [
+        "fr",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Subnautica",
+      "owners": [
+        "fr",
+        "bj",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Sid Meier's Civilization VI",
+      "owners": [
+        "fr",
+        "bj",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Little Nightmares",
+      "owners": [
+        "fr",
+        "jo",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Surviving Mars",
+      "owners": [
+        "fr",
+        "bj",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Satisfactory",
+      "owners": [
+        "fr",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "PUBG: BATTLEGROUNDS",
+      "owners": [
+        "fr",
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Aimlabs",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Overcooked! 2",
+      "owners": [
+        "fr",
+        "bj",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Ring of Elysium",
+      "owners": [
+        "fr",
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Subnautica: Below Zero",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Bloons TD 6",
+      "owners": [
+        "fr",
+        "bj",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Destiny 2",
+      "owners": [
+        "fr",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Scribble It!",
+      "owners": [
+        "fr",
+        "jo",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Ready or Not",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Sea of Thieves",
+      "owners": [
+        "fr",
+        "jo",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Slapshot: Rebound",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "PlateUp!",
+      "owners": [
+        "fr",
+        "jo",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Half-Life 2: Deathmatch",
+      "owners": [
+        "lu",
+        "jo",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "The Binding of Isaac: Rebirth",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "ASTRONEER",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Hollow Knight",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Undertale",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "owners": [
+        "lu",
+        "jo",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "New World: Aeternum",
+      "owners": [
+        "lu",
+        "jo",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Red Dead Redemption 2",
+      "owners": [
+        "lu",
+        "jo",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Balatro",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "CloverPit",
+      "owners": [
+        "lu",
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "War Thunder",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Plague Inc: Evolved",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Don't Starve Together",
+      "owners": [
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Frostpunk",
+      "owners": [
+        "jo",
+        "bj",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "ARK: Survival Evolved",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "ARK: Survival Of The Fittest",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Siege - Test Server",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "The Crew 2",
+      "owners": [
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Muck",
+      "owners": [
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Content Warning",
+      "owners": [
+        "jo",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "No Man's Sky",
+      "owners": [
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Totally Accurate Battle Simulator",
+      "owners": [
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Rainbow Six Siege",
+      "owners": [
+        "lucas",
+        "jonas",
+        "tom"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Portal",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Company of Heroes 2",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Assetto Corsa",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Cities: Skylines",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Grand Theft Auto V Legacy",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Mini Metro",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Geometry Dash",
+      "owners": [
+        "fr",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "ShellShock Live",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Keep Talking and Nobody Explodes",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Fishing Planet",
+      "owners": [
+        "fr",
+        "lu"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Tricky Towers",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "UNO",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "DiRT Rally 2.0",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Automobilista 2",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "F1 2020",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "DEVOUR",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Escape Simulator",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "The Stanley Parable: Ultra Deluxe",
+      "owners": [
+        "fr",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Subnautica 2",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "THE FINALS",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Grand Theft Auto V Enhanced",
+      "owners": [
+        "fr",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Half-Life 2",
+      "owners": [
+        "lu",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Half-Life Deathmatch: Source",
+      "owners": [
+        "lu",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Garry's Mod",
+      "owners": [
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "PAYDAY 2",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "theHunter Classic",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Warface: Clutch",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "DARK SOULS™ III",
+      "owners": [
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "DARK SOULS™: REMASTERED",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Realm Royale Reforged",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Totally Accurate Battlegrounds",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Secret Neighbor",
+      "owners": [
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Game Migrated to Another Steam Page",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Jump King",
+      "owners": [
+        "lu",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Fallout 76",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "ELDEN RING",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "It Takes Two",
+      "owners": [
+        "lu",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Lost Ark",
+      "owners": [
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Frostpunk 2",
+      "owners": [
+        "lu",
+        "bj"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "MultiVersus",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "PEAK",
+      "owners": [
+        "lu",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Mage Arena",
+      "owners": [
+        "lu",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Move or Die",
+      "owners": [
+        "jo",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Hearts of Iron IV",
+      "owners": [
+        "jo",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Monopoly Plus",
+      "owners": [
+        "jo",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Green Hell",
+      "owners": [
+        "jo",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Rogue Company",
+      "owners": [
+        "jo",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "LEGO® Star Wars™ III: The Clone Wars™",
+      "owners": [
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Mini Motorways",
+      "owners": [
+        "bj",
+        "be"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Call of Duty®",
+      "owners": [
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Throne and Liberty",
+      "owners": [
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "We Need To Go Deeper",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Barony",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Deep Rock Galactic",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Hollow Knight: Silksong",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Bloons TD Battles 2",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Cult of the Lamb",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Melatonin",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": false
+    },
+    {
+      "name": "Gamble With Your Friends",
+      "owners": [
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    }
+  ]
+}

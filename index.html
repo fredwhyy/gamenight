@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Night — what can we play?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#E7EAF0;
+    --card:#FFFFFF;
+    --ink:#101427;
+    --ink-60:#5A6076;
+    --ink-25:#B9BECC;
+    --violet:#4B2ED9;
+    --green:#0E7A57;
+    --amber:#C7521B;
+    --rule:#CDD2DE;
+    --radius:3px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:15px;
+    line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+
+  /* ---------- masthead ---------- */
+  .masthead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+    border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:22px}
+  .masthead h1{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+    font-size:clamp(26px,4.5vw,40px);letter-spacing:-.02em;margin:0;line-height:1;
+  }
+  .masthead .sub{font-family:"IBM Plex Mono",monospace;font-size:12px;
+    text-transform:uppercase;letter-spacing:.12em;color:var(--ink-60)}
+
+  /* ---------- roster ---------- */
+  .roster{margin-bottom:22px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;text-transform:uppercase;
+    letter-spacing:.14em;color:var(--ink-60);margin:0 0 8px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{
+    display:flex;align-items:center;gap:8px;
+    background:var(--card);border:1px solid var(--rule);border-radius:999px;
+    padding:6px 14px 6px 6px;cursor:pointer;font:inherit;color:var(--ink-60);
+    transition:background .12s,color .12s,border-color .12s;
+  }
+  .chip:hover{border-color:var(--ink-25)}
+  .chip .initials{
+    width:26px;height:26px;border-radius:999px;display:grid;place-items:center;
+    background:var(--paper);color:var(--ink-60);
+    font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;
+  }
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+  .chip[aria-pressed="true"] .initials{background:var(--violet);color:#fff}
+  .chip:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+
+  /* ---------- controls ---------- */
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  .search{
+    flex:1 1 260px;display:flex;align-items:center;gap:8px;background:var(--card);
+    border:1px solid var(--rule);border-radius:var(--radius);padding:8px 12px;
+  }
+  .search input{border:0;outline:0;background:transparent;font:inherit;width:100%;color:var(--ink)}
+  .search .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-25)}
+  .toggle{
+    background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);
+    padding:8px 12px;font:inherit;font-size:13px;color:var(--ink-60);cursor:pointer;
+  }
+  .toggle[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+  .toggle:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+
+  /* ---------- matrix table ---------- */
+  .board{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);overflow-x:auto}
+  table{border-collapse:collapse;width:100%;min-width:560px}
+  thead th{
+    position:sticky;top:0;background:var(--card);z-index:2;
+    font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:500;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--ink-60);
+    text-align:center;padding:10px 4px;border-bottom:1px solid var(--ink);
+  }
+  thead th.name-col{text-align:left;padding-left:16px}
+  thead th.out{color:var(--ink-25)}
+  tbody td{border-bottom:1px solid var(--rule);padding:9px 4px;text-align:center;vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover td{background:#F6F7FA}
+  td.name-col{text-align:left;padding-left:16px;padding-right:12px}
+  .title{font-weight:500}
+  .meta{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-60);margin-top:1px}
+
+  /* the signature: ownership cells */
+  .cell{width:14px;height:14px;border-radius:2px;display:inline-block}
+  .cell.owned{background:var(--ink)}
+  .cell.owned.party{background:var(--violet)}
+  .cell.missing{border:1px solid var(--ink-25)}
+  .cell.missing.party{border:1px solid var(--amber);background:repeating-linear-gradient(45deg,transparent,transparent 3px,#F3D6C9 3px,#F3D6C9 5px)}
+
+  .status{font-family:"IBM Plex Mono",monospace;font-size:11px;white-space:nowrap;
+    text-transform:uppercase;letter-spacing:.08em}
+  .status.go{color:var(--green)}
+  .status.short{color:var(--amber)}
+
+  /* ---------- section headers inside list ---------- */
+  tr.group td{
+    background:var(--paper);border-bottom:1px solid var(--rule);
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-60);text-align:left;padding:8px 16px;
+  }
+  .empty{padding:36px 16px;text-align:center;color:var(--ink-60)}
+  .empty strong{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:18px;color:var(--ink);margin-bottom:4px}
+
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-60)}
+  .legend span{display:flex;align-items:center;gap:6px}
+
+  footer{margin-top:28px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-60)}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>Who owns what</h1>
+    <span class="sub" id="stamp">library snapshot</span>
+  </header>
+
+  <section class="roster">
+    <p class="eyebrow">Tonight's party — tap to add or drop</p>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <div class="controls">
+    <label class="search">
+      <span class="tag">FIND</span>
+      <input id="q" type="search" placeholder="Search a game to see who owns it" autocomplete="off">
+    </label>
+    <button class="toggle" id="near" aria-pressed="true">Show one-short</button>
+    <button class="toggle" id="mp" aria-pressed="true">Multiplayer only</button>
+  </div>
+
+  <div class="board">
+    <table>
+      <thead><tr id="head"></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <div class="legend">
+    <span><i class="cell owned party"></i> in party, owns it</span>
+    <span><i class="cell missing party"></i> in party, missing it</span>
+    <span><i class="cell owned"></i> owns it, sitting out</span>
+  </div>
+
+  <footer>
+    Data lives in <code>library.json</code>. Re-run <code>fetch-libraries.mjs</code> to refresh Steam; edit the file by hand for Epic and Uplay.
+  </footer>
+</div>
+
+<script type="module">
+let DATA;
+try {
+  const res = await fetch("library.json");
+  if (!res.ok) throw new Error(res.status);
+  DATA = await res.json();
+} catch (err) {
+  document.getElementById("rows").innerHTML =
+    `<tr><td class="empty"><strong>Can't read library.json</strong>
+     Make sure it sits in the same folder as this page, and that you're opening
+     the page through a server (npx serve) or on GitHub Pages — browsers block
+     file reads from a double-clicked page.</td></tr>`;
+  throw err;
+}
+
+const state = {
+  party: new Set(DATA.friends.map(f => f.id)),
+  q: "",
+  near: true,
+  mp: true
+};
+
+const $ = s => document.querySelector(s);
+const initials = n => n.slice(0,2).toUpperCase();
+
+document.getElementById("stamp").textContent =
+  DATA.friends.length + " libraries · updated " + DATA.generated;
+
+// ---- roster chips ----
+function drawChips(){
+  $("#chips").innerHTML = "";
+  DATA.friends.forEach(f => {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.setAttribute("aria-pressed", state.party.has(f.id));
+    b.innerHTML = `<span class="initials">${initials(f.name)}</span>${f.name}`;
+    b.onclick = () => {
+      state.party.has(f.id) ? state.party.delete(f.id) : state.party.add(f.id);
+      drawChips(); draw();
+    };
+    $("#chips").appendChild(b);
+  });
+}
+
+// ---- table head ----
+function drawHead(){
+  const h = $("#head");
+  h.innerHTML = '<th class="name-col">Game</th>';
+  DATA.friends.forEach(f => {
+    const th = document.createElement("th");
+    th.textContent = initials(f.name);
+    th.title = f.name;
+    if(!state.party.has(f.id)) th.className = "out";
+    h.appendChild(th);
+  });
+  const th = document.createElement("th");
+  th.textContent = "Status";
+  h.appendChild(th);
+}
+
+// ---- rows ----
+function draw(){
+  drawHead();
+  const party = [...state.party];
+  const q = state.q.trim().toLowerCase();
+
+  const scored = DATA.games.map(g => {
+    const missing = party.filter(p => !g.owners.includes(p));
+    return { ...g, missing };
+  }).filter(g => {
+    if(state.mp && !g.multiplayer && !q) return false;
+    if(q) return g.name.toLowerCase().includes(q);
+    if(!party.length) return false;
+    if(g.missing.length === 0) return true;
+    return state.near && g.missing.length === 1;
+  }).sort((a,b) => a.missing.length - b.missing.length || b.owners.length - a.owners.length || a.name.localeCompare(b.name));
+
+  const body = $("#rows");
+  body.innerHTML = "";
+
+  if(!scored.length){
+    body.innerHTML = `<tr><td class="empty" colspan="${DATA.friends.length+2}">
+      <strong>Nothing lines up yet</strong>
+      ${party.length ? "Try turning on one-short, or drop someone from the party." : "Add someone to the party to start."}
+    </td></tr>`;
+    return;
+  }
+
+  let lastGroup = null;
+  scored.forEach(g => {
+    const group = q ? "Search results"
+      : g.missing.length === 0 ? "Everyone in the party owns this"
+      : "One person short";
+    if(group !== lastGroup){
+      const tr = document.createElement("tr");
+      tr.className = "group";
+      tr.innerHTML = `<td colspan="${DATA.friends.length+2}">${group}</td>`;
+      body.appendChild(tr);
+      lastGroup = group;
+    }
+
+    const tr = document.createElement("tr");
+    const cells = DATA.friends.map(f => {
+      const owns = g.owners.includes(f.id);
+      const inParty = state.party.has(f.id);
+      const cls = ["cell", owns ? "owned" : "missing", inParty ? "party" : ""].join(" ");
+      return `<td><i class="${cls}" title="${f.name} ${owns ? "owns" : "doesn't own"} ${g.name}"></i></td>`;
+    }).join("");
+
+    const status = g.missing.length === 0
+      ? `<span class="status go">ready · ${party.length}p</span>`
+      : `<span class="status short">${g.missing.map(id => DATA.friends.find(f=>f.id===id).name).join(", ")} needs it</span>`;
+
+    tr.innerHTML = `<td class="name-col">
+        <div class="title">${g.name}</div>
+        <div class="meta">${g.owners.length}/${DATA.friends.length} own it${g.multiplayer ? "" : " · singleplayer"}</div>
+      </td>${cells}<td>${party.length ? status : ""}</td>`;
+    body.appendChild(tr);
+  });
+}
+
+$("#q").addEventListener("input", e => { state.q = e.target.value; draw(); });
+$("#near").addEventListener("click", e => {
+  state.near = !state.near; e.currentTarget.setAttribute("aria-pressed", state.near); draw();
+});
+$("#mp").addEventListener("click", e => {
+  state.mp = !state.mp; e.currentTarget.setAttribute("aria-pressed", state.mp); draw();
+});
+
+drawChips();
+draw();
+</script>
+</body>
+</html>
