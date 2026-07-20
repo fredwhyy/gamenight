@@ -64,6 +64,18 @@
       "multiplayer": true
     },
     {
+      "name": "Overcooked! 2",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Phasmophobia",
       "owners": [
         "fr",
@@ -171,6 +183,28 @@
       "multiplayer": true
     },
     {
+      "name": "Rocket League",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Sid Meier's Civilization VI",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Stick Fight: The Game",
       "owners": [
         "fr",
@@ -189,6 +223,17 @@
         "jo",
         "bj",
         "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Bloons TD 6",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa",
+        "lu"
       ],
       "multiplayer": true
     },
@@ -226,6 +271,17 @@
       "multiplayer": true
     },
     {
+      "name": "Grand Theft Auto V Enhanced",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "HELLDIVERS™ 2",
       "owners": [
         "lu",
@@ -248,17 +304,29 @@
       "multiplayer": true
     },
     {
-      "name": "Euro Truck Simulator 2",
+      "name": "Hearthstone",
       "owners": [
         "fr",
         "bj",
-        "be",
-        "fa"
+        "fa",
+        "lu",
+        "jo"
       ],
       "multiplayer": true
     },
     {
-      "name": "Sid Meier's Civilization VI",
+      "name": "Minecraft",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Euro Truck Simulator 2",
       "owners": [
         "fr",
         "bj",
@@ -292,26 +360,6 @@
       "owners": [
         "fr",
         "jo",
-        "be",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Overcooked! 2",
-      "owners": [
-        "fr",
-        "bj",
-        "be",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Bloons TD 6",
-      "owners": [
-        "fr",
-        "bj",
         "be",
         "fa"
       ],
@@ -378,6 +426,16 @@
       "multiplayer": true
     },
     {
+      "name": "Fall Guys",
+      "owners": [
+        "lu",
+        "fr",
+        "fa",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "ROUNDS",
       "owners": [
         "lu",
@@ -428,20 +486,41 @@
       "multiplayer": true
     },
     {
+      "name": "VALORANT",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Star Wars Battlefront II",
+      "owners": [
+        "bj",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "StarCraft II",
+      "owners": [
+        "bj",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Portal 2",
       "owners": [
         "fr",
         "lu",
         "be"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Rocket League",
-      "owners": [
-        "fr",
-        "bj",
-        "fa"
       ],
       "multiplayer": true
     },
@@ -572,15 +651,6 @@
       "multiplayer": true
     },
     {
-      "name": "Grand Theft Auto V Enhanced",
-      "owners": [
-        "fr",
-        "bj",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Half-Life 2: Deathmatch",
       "owners": [
         "lu",
@@ -639,15 +709,6 @@
       "owners": [
         "lu",
         "jo",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Fall Guys",
-      "owners": [
-        "lu",
-        "fr",
         "fa"
       ],
       "multiplayer": true
@@ -797,6 +858,15 @@
       "multiplayer": true
     },
     {
+      "name": "Overcooked",
+      "owners": [
+        "be",
+        "fa",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Fortnite",
       "owners": [
         "fr",
@@ -806,29 +876,29 @@
       "multiplayer": true
     },
     {
-      "name": "VALORANT",
+      "name": "League of Legends",
       "owners": [
-        "fr",
-        "bj",
-        "fa"
+        "fa",
+        "lu",
+        "jo"
       ],
       "multiplayer": true
     },
     {
-      "name": "Hearthstone",
+      "name": "Schlacht um Mittelerde 2",
       "owners": [
-        "fr",
         "bj",
-        "fa"
+        "fa",
+        "jo"
       ],
       "multiplayer": true
     },
     {
-      "name": "Minecraft",
+      "name": "Hell Let Loose",
       "owners": [
-        "fr",
-        "bj",
-        "fa"
+        "fa",
+        "lu",
+        "jo"
       ],
       "multiplayer": true
     },
@@ -1284,30 +1354,6 @@
       "name": "theHunter: Call of the Wild",
       "owners": [
         "fr",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Star Wars Battlefront II",
-      "owners": [
-        "bj",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Schlacht um Mittelerde 2",
-      "owners": [
-        "bj",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "StarCraft II",
-      "owners": [
-        "bj",
         "fa"
       ],
       "multiplayer": true
