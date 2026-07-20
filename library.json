@@ -28,21 +28,6 @@
   ],
   "games": [
     {
-      "name": "Rocket League",
-      "owners": [
-        "fr",
-        "bj",
-        "fa",
-        "fred",
-        "lucas",
-        "jonas",
-        "mira",
-        "tom",
-        "anna"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Golf With Your Friends",
       "owners": [
         "fr",
@@ -104,6 +89,42 @@
     },
     {
       "name": "R.E.P.O.",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "The Jackbox Party Pack 4",
+      "owners": [
+        "be",
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "skribbl.io",
+      "owners": [
+        "fr",
+        "lu",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Codenames",
       "owners": [
         "fr",
         "lu",
@@ -181,6 +202,17 @@
       "multiplayer": true
     },
     {
+      "name": "Apex Legends",
+      "owners": [
+        "fr",
+        "lu",
+        "be",
+        "fa",
+        "bj"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Just Act Natural",
       "owners": [
         "fr",
@@ -224,6 +256,16 @@
       "multiplayer": true
     },
     {
+      "name": "Sid Meier's Civilization VI",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Ultimate Chicken Horse",
       "owners": [
         "fr",
@@ -254,6 +296,26 @@
       "multiplayer": true
     },
     {
+      "name": "Overcooked! 2",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Bloons TD 6",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Unrailed!",
       "owners": [
         "fr",
@@ -264,12 +326,12 @@
       "multiplayer": true
     },
     {
-      "name": "Apex Legends",
+      "name": "Sea of Thieves",
       "owners": [
         "fr",
-        "lu",
-        "be",
-        "fa"
+        "jo",
+        "fa",
+        "bj"
       ],
       "multiplayer": true
     },
@@ -334,6 +396,26 @@
       "multiplayer": true
     },
     {
+      "name": "ARK: Survival Evolved",
+      "owners": [
+        "jo",
+        "bj",
+        "fa",
+        "fr"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "The Crew 2",
+      "owners": [
+        "jo",
+        "bj",
+        "fa",
+        "fr"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Age of Empires III: Definitive Edition",
       "owners": [
         "jo",
@@ -349,6 +431,15 @@
         "fr",
         "lu",
         "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Rocket League",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
       ],
       "multiplayer": true
     },
@@ -369,15 +460,6 @@
         "be"
       ],
       "multiplayer": false
-    },
-    {
-      "name": "Sid Meier's Civilization VI",
-      "owners": [
-        "fr",
-        "bj",
-        "be"
-      ],
-      "multiplayer": true
     },
     {
       "name": "Little Nightmares",
@@ -425,15 +507,6 @@
       "multiplayer": false
     },
     {
-      "name": "Overcooked! 2",
-      "owners": [
-        "fr",
-        "bj",
-        "be"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Ring of Elysium",
       "owners": [
         "fr",
@@ -450,15 +523,6 @@
         "fa"
       ],
       "multiplayer": false
-    },
-    {
-      "name": "Bloons TD 6",
-      "owners": [
-        "fr",
-        "bj",
-        "be"
-      ],
-      "multiplayer": true
     },
     {
       "name": "Destiny 2",
@@ -488,15 +552,6 @@
       "multiplayer": true
     },
     {
-      "name": "Sea of Thieves",
-      "owners": [
-        "fr",
-        "jo",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Slapshot: Rebound",
       "owners": [
         "fr",
@@ -511,6 +566,15 @@
         "fr",
         "jo",
         "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Grand Theft Auto V Enhanced",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
       ],
       "multiplayer": true
     },
@@ -573,6 +637,15 @@
       "owners": [
         "lu",
         "jo",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Fall Guys",
+      "owners": [
+        "lu",
+        "fr",
         "fa"
       ],
       "multiplayer": true
@@ -641,15 +714,6 @@
       "multiplayer": false
     },
     {
-      "name": "ARK: Survival Evolved",
-      "owners": [
-        "jo",
-        "bj",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Tom Clancy's Rainbow Six Siege",
       "owners": [
         "jo",
@@ -668,6 +732,15 @@
       "multiplayer": true
     },
     {
+      "name": "Monopoly Plus",
+      "owners": [
+        "jo",
+        "bj",
+        "fr"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Tom Clancy's Rainbow Six Siege - Test Server",
       "owners": [
         "jo",
@@ -677,11 +750,11 @@
       "multiplayer": false
     },
     {
-      "name": "The Crew 2",
+      "name": "Rogue Company",
       "owners": [
         "jo",
-        "bj",
-        "fa"
+        "fa",
+        "fr"
       ],
       "multiplayer": true
     },
@@ -722,11 +795,38 @@
       "multiplayer": true
     },
     {
-      "name": "Rainbow Six Siege",
+      "name": "Fortnite",
       "owners": [
-        "lucas",
-        "jonas",
-        "tom"
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "VALORANT",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Hearthstone",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Minecraft",
+      "owners": [
+        "fr",
+        "bj",
+        "fa"
       ],
       "multiplayer": true
     },
@@ -884,14 +984,6 @@
     },
     {
       "name": "THE FINALS",
-      "owners": [
-        "fr",
-        "bj"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Grand Theft Auto V Enhanced",
       "owners": [
         "fr",
         "bj"
@@ -1083,23 +1175,7 @@
       "multiplayer": true
     },
     {
-      "name": "Monopoly Plus",
-      "owners": [
-        "jo",
-        "bj"
-      ],
-      "multiplayer": true
-    },
-    {
       "name": "Green Hell",
-      "owners": [
-        "jo",
-        "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Rogue Company",
       "owners": [
         "jo",
         "fa"
@@ -1198,6 +1274,38 @@
       "name": "Gamble With Your Friends",
       "owners": [
         "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "theHunter: Call of the Wild",
+      "owners": [
+        "fr",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Star Wars Battlefront II",
+      "owners": [
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Schlacht um Mittelerde 2",
+      "owners": [
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "StarCraft II",
+      "owners": [
+        "bj",
         "fa"
       ],
       "multiplayer": true
