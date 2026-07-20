@@ -168,7 +168,7 @@
 <script type="module">
 let DATA;
 try {
-  const res = await fetch("library.json");
+  const res = await fetch("library.json?v=" + Date.now());
   if (!res.ok) throw new Error(res.status);
   DATA = await res.json();
 } catch (err) {
