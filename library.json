@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-27",
   "friends": [
     {
       "id": "fr",
@@ -112,6 +112,18 @@
       "multiplayer": true
     },
     {
+      "name": "Bloons TD 6",
+      "owners": [
+        "fr",
+        "bj",
+        "be",
+        "fa",
+        "lu",
+        "jo"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Lethal Company",
       "owners": [
         "fr",
@@ -144,6 +156,30 @@
         "jo",
         "bj",
         "fa"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Hearthstone",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "lu",
+        "jo",
+        "be"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Minecraft",
+      "owners": [
+        "fr",
+        "bj",
+        "fa",
+        "lu",
+        "jo",
+        "be"
       ],
       "multiplayer": true
     },
@@ -205,6 +241,17 @@
       "multiplayer": true
     },
     {
+      "name": "Witch It",
+      "owners": [
+        "fr",
+        "jo",
+        "bj",
+        "be",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "Stick Fight: The Game",
       "owners": [
         "fr",
@@ -223,18 +270,6 @@
         "jo",
         "bj",
         "fa"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Bloons TD 6",
-      "owners": [
-        "fr",
-        "bj",
-        "be",
-        "fa",
-        "lu",
-        "jo"
       ],
       "multiplayer": true
     },
@@ -305,24 +340,13 @@
       "multiplayer": true
     },
     {
-      "name": "Hearthstone",
+      "name": "StarCraft II",
       "owners": [
-        "fr",
         "bj",
         "fa",
         "lu",
-        "jo"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "Minecraft",
-      "owners": [
-        "fr",
-        "bj",
-        "fa",
-        "lu",
-        "jo"
+        "jo",
+        "be"
       ],
       "multiplayer": true
     },
@@ -355,16 +379,6 @@
         "fa"
       ],
       "multiplayer": false
-    },
-    {
-      "name": "Witch It",
-      "owners": [
-        "fr",
-        "jo",
-        "be",
-        "fa"
-      ],
-      "multiplayer": true
     },
     {
       "name": "Unrailed!",
@@ -457,6 +471,16 @@
       "multiplayer": true
     },
     {
+      "name": "MECCHA CHAMELEON",
+      "owners": [
+        "lu",
+        "jo",
+        "bj",
+        "fa"
+      ],
+      "multiplayer": true
+    },
+    {
       "name": "ARK: Survival Evolved",
       "owners": [
         "jo",
@@ -473,6 +497,16 @@
         "bj",
         "fa",
         "fr"
+      ],
+      "multiplayer": true
+    },
+    {
+      "name": "Rogue Company",
+      "owners": [
+        "jo",
+        "fa",
+        "fr",
+        "be"
       ],
       "multiplayer": true
     },
@@ -498,16 +532,6 @@
     },
     {
       "name": "Star Wars Battlefront II",
-      "owners": [
-        "bj",
-        "fa",
-        "lu",
-        "jo"
-      ],
-      "multiplayer": true
-    },
-    {
-      "name": "StarCraft II",
       "owners": [
         "bj",
         "fa",
@@ -812,15 +836,6 @@
         "fa"
       ],
       "multiplayer": false
-    },
-    {
-      "name": "Rogue Company",
-      "owners": [
-        "jo",
-        "fa",
-        "fr"
-      ],
-      "multiplayer": true
     },
     {
       "name": "Muck",
